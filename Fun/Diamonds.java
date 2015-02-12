@@ -8,7 +8,7 @@ public class Diamonds {
             }
             System.out.print("/");
             for (int j = 1; j < 2*i; j++) {
-                System.out.print("*");
+                System.out.print("o");
             }
             System.out.print("\\");
             System.out.print("\n");
@@ -21,7 +21,7 @@ public class Diamonds {
             }
             System.out.print("\\");
             for (int j = 11; j > 2*i; j--) {
-                System.out.print("*");
+                System.out.print("o");
             }
             System.out.print("/");
             System.out.print("\n");
